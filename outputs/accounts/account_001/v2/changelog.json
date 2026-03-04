@@ -1,0 +1,59 @@
+[
+    {
+        "field": "business_hours.days",
+        "old": "",
+        "new": "Monday to Friday",
+        "reason": "Updated from onboarding"
+    },
+    {
+        "field": "business_hours.start",
+        "old": "",
+        "new": "8:30 AM",
+        "reason": "Updated from onboarding"
+    },
+    {
+        "field": "business_hours.end",
+        "old": "",
+        "new": "5:00 PM",
+        "reason": "Updated from onboarding"
+    },
+    {
+        "field": "emergency_definition",
+        "old": [
+            "Not equipped for general emergency services",
+            "Emergency support for select property managers only"
+        ],
+        "new": [
+            "After-hours emergency support ONLY for G&M Pressure Washing managed gas stations"
+        ],
+        "reason": "Updated from onboarding"
+    },
+    {
+        "field": "emergency_routing_rules",
+        "old": [],
+        "new": [
+            "If caller identifies as G&M Pressure Washing",
+            "Collect gas station details",
+            "Patch call directly to Ben"
+        ],
+        "reason": "Updated from onboarding"
+    },
+    {
+        "field": "call_transfer_rules.fallback_action",
+        "old": "",
+        "new": "If transfer fails, inform caller Ben will return call.",
+        "reason": "Updated from onboarding"
+    },
+    {
+        "field": "after_hours_flow_summary",
+        "old": "Ben personally handles limited emergency calls.",
+        "new": "No general emergency dispatch. Only G&M Pressure Washing calls are patched through. Others logged for next business day.",
+        "reason": "Updated from onboarding"
+    },
+    {
+        "field": "notes",
+        "old": "Approx. 20\u201350 inbound calls per week.",
+        "new": "Service call fee $115 call-out + $98/hour billed in half-hour increments. Mention only if caller asks.",
+        "reason": "Updated from onboarding"
+    }
+]

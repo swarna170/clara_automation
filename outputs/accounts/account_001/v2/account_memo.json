@@ -1,0 +1,45 @@
+{
+    "account_id": "001",
+    "company_name": "Ben's Electric Solutions",
+    "business_hours": {
+        "days": "Monday to Friday",
+        "start": "8:30 AM",
+        "end": "5:00 PM",
+        "timezone": ""
+    },
+    "office_address": "",
+    "services_supported": [
+        "service calls",
+        "renovations",
+        "troubleshooting",
+        "ev chargers",
+        "hot tub",
+        "panel changes",
+        "tenant",
+        "custom home"
+    ],
+    "emergency_definition": [
+        "After-hours emergency support ONLY for G&M Pressure Washing managed gas stations"
+    ],
+    "emergency_routing_rules": [
+        "If caller identifies as G&M Pressure Washing",
+        "Collect gas station details",
+        "Patch call directly to Ben"
+    ],
+    "non_emergency_routing_rules": [],
+    "call_transfer_rules": {
+        "timeout_seconds": "",
+        "retry_count": "",
+        "fallback_action": "If transfer fails, inform caller Ben will return call."
+    },
+    "integration_constraints": [
+        "Uses Jobber CRM"
+    ],
+    "after_hours_flow_summary": "No general emergency dispatch. Only G&M Pressure Washing calls are patched through. Others logged for next business day.",
+    "office_hours_flow_summary": "",
+    "questions_or_unknowns": [
+        "Timezone not specified",
+        "Transfer timeout rules not defined"
+    ],
+    "notes": "Service call fee $115 call-out + $98/hour billed in half-hour increments. Mention only if caller asks."
+}
